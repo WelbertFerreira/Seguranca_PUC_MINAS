@@ -1,0 +1,56 @@
+{
+	"id": "54b1dabd-0e27-f427-f927-6cec2e6bb28f",
+	"name": "Seguranca",
+	"description": "",
+	"order": [
+		"d0ff71ea-a05a-0969-fff7-bfbf6df3b594",
+		"68b0c60f-97d5-3151-8dab-e3b96bc0214d"
+	],
+	"folders": [],
+	"timestamp": 1481237149715,
+	"owner": "925577",
+	"public": false,
+	"requests": [
+		{
+			"id": "68b0c60f-97d5-3151-8dab-e3b96bc0214d",
+			"headers": "Authorization: key=AAAAX5QMd3I:APA91bGc_0Qx6oCG6I-EjllzbWAyjoO_cvJo6zD14dTQh44AJdjagdXP49R_KSjQpTsHTLIan36w3gVmMnjXXK02iSN5LEh69mITapnKSgcjMJCaaeWAE8JR062Suk8n0R-U-2cGuPAEaoVYmxiJDl6AfhN-PQL6jg\nContent-Type: application/json\n",
+			"url": "https://fcm.googleapis.com/fcm/send",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "54b1dabd-0e27-f427-f927-6cec2e6bb28f",
+			"data": [],
+			"dataMode": "raw",
+			"name": "https://fcm.googleapis.com/fcm/send",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1481237198358,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n    \"registration_ids\": [\"eBhD9173g-s:APA91bF9oDwedeLd7a6f8xhMkxoxPmjnJLyfzI2K8rtd5l-ZQ2Kgp_uaiXHxiEOhe6YlSIj94Vw1WaEqzO2BpZu6Ws-9aUkR0LCcb9nTUlczZQUIpuPXeuQHKbrPNkHHVRbQw9lsOF3X\"],\n    \"data\": {\n        \"title\": \"Titulo de teste notificacao\",\n        \"message\": \"Mensagem simples que vem embaixo.\"\n    }\n}"
+		},
+		{
+			"id": "d0ff71ea-a05a-0969-fff7-bfbf6df3b594",
+			"headers": "Authorization: key=AAAAX5QMd3I:APA91bGc_0Qx6oCG6I-EjllzbWAyjoO_cvJo6zD14dTQh44AJdjagdXP49R_KSjQpTsHTLIan36w3gVmMnjXXK02iSN5LEh69mITapnKSgcjMJCaaeWAE8JR062Suk8n0R-U-2cGuPAEaoVYmxiJDl6AfhN-PQL6jg\nContent-Type: application/json\n",
+			"url": "https://fcm.googleapis.com/fcm/send",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1481237177278,
+			"name": "https://fcm.googleapis.com/fcm/send",
+			"description": "",
+			"collectionId": "54b1dabd-0e27-f427-f927-6cec2e6bb28f",
+			"responses": [],
+			"rawModeData": "{\n    \"registration_ids\": [\"eBhD9173g-s:APA91bF9oDwedeLd7a6f8xhMkxoxPmjnJLyfzI2K8rtd5l-ZQ2Kgp_uaiXHxiEOhe6YlSIj94Vw1WaEqzO2BpZu6Ws-9aUkR0LCcb9nTUlczZQUIpuPXeuQHKbrPNkHHVRbQw9lsOF3X\"],\n    \"data\": {\n        \"title\": \"Titulo de teste notificacao\",\n        \"message\": \"Mensagem simples que vem embaixo.\"\n    }\n}"
+		}
+	]
+}
